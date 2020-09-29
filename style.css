@@ -3,9 +3,9 @@ body {
   flex-flow: column nowrap;
   background-image: linear-gradient(white, rgba(115, 120, 150, 0.466));
   box-sizing: border-box;
-  height: 100vh;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 .top-bar {
@@ -53,6 +53,7 @@ body {
 
 .main-content {
   display: flex;
+  position: relative;
   flex-flow: row nowrap;
   justify-content: center;
   margin: 20px 0;
@@ -177,4 +178,11 @@ body {
   background-color: rgb(66, 103, 178);
   color: white;
   width: 100%;
+  position: relative;
+  bottom: 0;
 }
+
+/* .testbug{
+  height: 500px;
+  background-color: lawngreen;
+} */
